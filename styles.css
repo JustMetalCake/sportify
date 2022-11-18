@@ -1,0 +1,145 @@
+/* COLOURS
+snow blue = #E8F9FD
+aqua = #79DAE8
+med blue = #0AA1DD
+royal = #2155CD 
+*/
+
+
+/* FONTS
+sans serif body = 'Montserrat', sans-serif
+display = 'Staatliches', cursive
+serif header = 'Josefin Slab', serif
+*/
+
+/* HTML elements */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Josefin Slab', serif;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 2%;
+}
+
+
+
+/* Headings & Titles */
+
+.section-title {
+    padding: 0 0 3%;
+    font-family: 'Staatliches', cursive;
+    font-size: 3rem;
+}
+
+.site-link {
+    font-size: 1.2rem;
+}
+
+
+/* Title & Nav Bar */
+
+#title {
+    background-color: #2155CD;
+    color: white;
+    padding: 1% 2%;
+}
+
+.tagline {
+    font-size: 2rem;
+    margin: 20px;
+    font-family: 'Josefin Slab', serif;
+    font-weight: bold;
+}
+
+.navbar {
+    color: white;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-family: 'Staatliches', cursive;
+}
+
+.nav-item {
+    font-size: 1.5rem;
+}
+
+
+/* Motorsport */
+
+#motorsport {
+    background-color: #E8F9FD;
+    padding: 2%;
+    height: 690px;
+    /* position: relative; */
+}
+
+.logo {
+    height: 15%;
+    margin: 20px;
+}
+
+.motorsport-subheading, .rugby-subheading {
+    font-style: italic;
+    color: #2155CD;
+    font-weight: bold;
+    padding: 2%;
+}
+
+
+/* Football */
+
+#football {
+    background-color: #0AA1DD;
+    padding: 2%;
+    color: white;
+    height: 780px;
+    /* position: relative; */
+}
+
+.football-logo {
+    width: 30%;
+    padding: 2%;
+}
+
+.football-subheading {
+    font-style: italic;
+    font-weight: bold;
+    padding: 2%;
+}
+
+/* Rugby */
+
+#rugby {
+    background-color: #E8F9FD;
+    padding: 4% 2%;
+    height: 780px;
+    /* position: relative; */
+}
+
+.rugby-logo {
+    width: 50%;
+}
+
+
+/* Footer */
+#footer {
+    background-color: #2155CD;
+    padding: 1px;
+    color: white;
+}
+
+.socials {
+    padding: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.football-fixtures {
+    text-align: left;
+}
